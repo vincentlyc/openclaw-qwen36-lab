@@ -1,0 +1,36 @@
+# Model weights and large artifacts
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+models/
+
+# Local build/checkouts
+llama.cpp/
+build/
+cmake-build-*/
+
+# Python / virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local env
+.env
+*.env
+*token*
+*Token*
+*TOKEN*
+*api_key*
+*API_KEY*
+*password*
+*Password*
+*PASSWORD*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

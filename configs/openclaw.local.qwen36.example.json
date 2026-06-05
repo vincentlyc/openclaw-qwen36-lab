@@ -1,0 +1,16 @@
+{
+  "providers": {
+    "qwen36_local": {
+      "type": "openai-compatible",
+      "base_url": "http://127.0.0.1:18000/v1",
+      "api_key": "not-needed-for-local-llama-server",
+      "models": [
+        {
+          "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
+          "name": "Qwen3.6 35B A3B GGUF Local"
+        }
+      ]
+    }
+  },
+  "default_model": "unsloth/Qwen3.6-35B-A3B-GGUF"
+}
